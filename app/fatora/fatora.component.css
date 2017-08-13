@@ -1,0 +1,31 @@
+.centr {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: yellowgreen
+}
+
+.centr1 {
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: darkred
+}
+
+.centr2 {
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: orangered
+}
+
+.centr3 {
+    font-style: initial;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: deeppink
+}

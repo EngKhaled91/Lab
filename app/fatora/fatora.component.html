@@ -1,0 +1,59 @@
+<p class="centr">
+    welcome in our website
+</p>
+
+<table>
+
+    <tr class="centr1">
+        <td>Amount</td>
+        &nbsp; &nbsp;
+        <td>Product</td>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <td>Price</td>
+    </tr>
+    <tr>
+
+        <td>
+            <input type="text" #milk> </td>
+        &nbsp; &nbsp;
+        <td> <img src="milk.jpeg"> </td>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <td class="centr2"> {{fatora1.pricemilk}}</td>
+    </tr>
+    <br>
+
+
+    <tr>
+        <td>
+            <input type="text" #rice> </td>
+        &nbsp; &nbsp;
+        <td> <img src="rice.jpg"> </td>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <td class="centr2">{{fatora1.pricerice}}</td>
+    </tr>
+    <br>
+
+
+    <tr>
+        <td>
+            <input type="text" #soil> </td>
+        &nbsp; &nbsp;
+        <td> <img src="soil.jpg"> </td>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <td class="centr2">{{fatora1.pricesoil}}</td>
+    </tr>
+    <br>
+
+
+
+    <tr>
+        <td>
+            <input type="text" #sugar> </td>
+        &nbsp; &nbsp;
+        <td> <img src="sugar.jpg"> </td>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <td class="centr2">{{fatora1.pricesugar}}</td>
+    </tr>
+</table>
+<br>
+<div class="centr3"><button (click)="calculatefatora(milk,rice,soil,sugar)" class="centr3">calculate</button> &nbsp; &nbsp; &nbsp;{{fatora1.toString()}}</div>
